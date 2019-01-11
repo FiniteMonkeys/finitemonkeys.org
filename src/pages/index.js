@@ -16,7 +16,6 @@ export default () => (
             kerbal space program
             <ul>
               <li><Link to="jooce">jooce</Link></li>
-              <li>TinKAN</li>
               <li><Link to="ksptot_on_macos">KSP Trajectory Optimization Tool on macOS</Link></li>
             </ul>
           </li>
