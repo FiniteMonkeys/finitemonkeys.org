@@ -1,14 +1,14 @@
 {
 	"providers": {
 		"awscloudformation": {
-			"AuthRoleName": "finitemonkeysorg-20190111150229-authRole",
-			"UnauthRoleArn": "arn:aws:iam::699802623531:role/finitemonkeysorg-20190111150229-unauthRole",
-			"AuthRoleArn": "arn:aws:iam::699802623531:role/finitemonkeysorg-20190111150229-authRole",
+			"AuthRoleName": "finitemonkeysorg-20190111152549-authRole",
+			"UnauthRoleArn": "arn:aws:iam::699802623531:role/finitemonkeysorg-20190111152549-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::699802623531:role/finitemonkeysorg-20190111152549-authRole",
 			"Region": "us-east-2",
-			"DeploymentBucketName": "finitemonkeysorg-20190111150229-deployment",
-			"UnauthRoleName": "finitemonkeysorg-20190111150229-unauthRole",
-			"StackName": "finitemonkeysorg-20190111150229",
-			"StackId": "arn:aws:cloudformation:us-east-2:699802623531:stack/finitemonkeysorg-20190111150229/350a6030-15e4-11e9-9e58-0626229bfdda"
+			"DeploymentBucketName": "finitemonkeysorg-20190111152549-deployment",
+			"UnauthRoleName": "finitemonkeysorg-20190111152549-unauthRole",
+			"StackName": "finitemonkeysorg-20190111152549",
+			"StackId": "arn:aws:cloudformation:us-east-2:699802623531:stack/finitemonkeysorg-20190111152549/779d58a0-15e7-11e9-8540-02ba814fbd16"
 		}
 	},
 	"hosting": {
@@ -16,17 +16,20 @@
 			"service": "S3AndCloudFront",
 			"providerPlugin": "awscloudformation",
 			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/finitemonkeysorg-20190111150229-deployment/amplify-cfn-templates/hosting/template.json",
+				"s3TemplateURL": "https://s3.amazonaws.com/finitemonkeysorg-20190111152549-deployment/amplify-cfn-templates/hosting/template.json",
 				"logicalId": "hostingS3AndCloudFront"
 			},
-			"lastPushTimeStamp": "2019-01-11T21:05:11.653Z",
+			"lastPushTimeStamp": "2019-01-11T21:45:47.951Z",
 			"output": {
-				"S3BucketSecureURL": "https://dev.finitemonkeys.org.s3.amazonaws.com",
-				"WebsiteURL": "http://dev.finitemonkeys.org.s3-website.us-east-2.amazonaws.com",
+				"CloudFrontSecureURL": "https://d37l60t353qol2.cloudfront.net",
+				"S3BucketSecureURL": "https://finitemonkeys.org.s3.amazonaws.com",
+				"WebsiteURL": "http://finitemonkeys.org.s3-website.us-east-2.amazonaws.com",
+				"CloudFrontDistributionID": "E3I48057KDIO2I",
 				"Region": "us-east-2",
-				"HostingBucketName": "dev.finitemonkeys.org"
+				"HostingBucketName": "finitemonkeys.org",
+				"CloudFrontDomainName": "d37l60t353qol2.cloudfront.net"
 			},
-			"lastPushDirHash": "f9V2P2CtvW9QaoucxYeE3OVqNY0="
+			"lastPushDirHash": "1eMbbr41VCaT0rBCBK0jjGUV84U="
 		}
 	}
 }

@@ -1,14 +1,14 @@
 {
     "providers": {
         "awscloudformation": {
-            "AuthRoleName": "finitemonkeysorg-20190111150229-authRole",
-            "UnauthRoleArn": "arn:aws:iam::699802623531:role/finitemonkeysorg-20190111150229-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::699802623531:role/finitemonkeysorg-20190111150229-authRole",
+            "AuthRoleName": "finitemonkeysorg-20190111152549-authRole",
+            "UnauthRoleArn": "arn:aws:iam::699802623531:role/finitemonkeysorg-20190111152549-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::699802623531:role/finitemonkeysorg-20190111152549-authRole",
             "Region": "us-east-2",
-            "DeploymentBucketName": "finitemonkeysorg-20190111150229-deployment",
-            "UnauthRoleName": "finitemonkeysorg-20190111150229-unauthRole",
-            "StackName": "finitemonkeysorg-20190111150229",
-            "StackId": "arn:aws:cloudformation:us-east-2:699802623531:stack/finitemonkeysorg-20190111150229/350a6030-15e4-11e9-9e58-0626229bfdda"
+            "DeploymentBucketName": "finitemonkeysorg-20190111152549-deployment",
+            "UnauthRoleName": "finitemonkeysorg-20190111152549-unauthRole",
+            "StackName": "finitemonkeysorg-20190111152549",
+            "StackId": "arn:aws:cloudformation:us-east-2:699802623531:stack/finitemonkeysorg-20190111152549/779d58a0-15e7-11e9-8540-02ba814fbd16"
         }
     }
 }

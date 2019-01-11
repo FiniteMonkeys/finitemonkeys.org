@@ -2,9 +2,9 @@
 
 const awsmobile =  {
     "aws_project_region": "us-east-2",
-    "aws_content_delivery_bucket": "dev.finitemonkeys.org",
+    "aws_content_delivery_bucket": "finitemonkeys.org",
     "aws_content_delivery_bucket_region": "us-east-2",
-    "aws_content_delivery_url": "http://dev.finitemonkeys.org.s3-website.us-east-2.amazonaws.com"
+    "aws_content_delivery_url": "https://d37l60t353qol2.cloudfront.net"
 };
 
 
