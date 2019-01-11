@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "finitemonkeys-20190110225654-authRole",
+			"UnauthRoleArn": "arn:aws:iam::699802623531:role/finitemonkeys-20190110225654-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::699802623531:role/finitemonkeys-20190110225654-authRole",
+			"Region": "us-east-2",
+			"DeploymentBucketName": "finitemonkeys-20190110225654-deployment",
+			"UnauthRoleName": "finitemonkeys-20190110225654-unauthRole",
+			"StackName": "finitemonkeys-20190110225654",
+			"StackId": "arn:aws:cloudformation:us-east-2:699802623531:stack/finitemonkeys-20190110225654/5166bc60-155d-11e9-8ca5-02c65bf75a14"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/finitemonkeys-20190110225654-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2019-01-11T05:19:16.654Z",
+			"output": {
+				"S3BucketSecureURL": "https://finitemonkeys-20190110231716-hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://finitemonkeys-20190110231716-hostingbucket.s3-website.us-east-2.amazonaws.com",
+				"Region": "us-east-2",
+				"HostingBucketName": "finitemonkeys-20190110231716-hostingbucket"
+			},
+			"lastPushDirHash": "zM7+fu7w1MSyQE51QYbU8ouR8v8="
+		}
+	}
+}

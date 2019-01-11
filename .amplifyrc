@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "finitemonkeys-20190110225654-authRole",
+            "UnauthRoleArn": "arn:aws:iam::699802623531:role/finitemonkeys-20190110225654-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::699802623531:role/finitemonkeys-20190110225654-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "finitemonkeys-20190110225654-deployment",
+            "UnauthRoleName": "finitemonkeys-20190110225654-unauthRole",
+            "StackName": "finitemonkeys-20190110225654",
+            "StackId": "arn:aws:cloudformation:us-east-2:699802623531:stack/finitemonkeys-20190110225654/5166bc60-155d-11e9-8ca5-02c65bf75a14"
+        }
+    }
+}
