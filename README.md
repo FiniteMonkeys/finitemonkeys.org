@@ -19,3 +19,11 @@ To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/
 
 The underlying source code used to format and display the content is licensed under the
 [MIT License](https://github.com/FiniteMonkeys/finitemonkeys.org/blob/master/LICENSE).
+
+## CREDITS
+
+Made possible by:
+
+* [Gatsby](https://www.gatsbyjs.org)
+* [Google Fonts](https://fonts.google.com)
+* [Amplify](https://aws-amplify.github.io/docs/)
