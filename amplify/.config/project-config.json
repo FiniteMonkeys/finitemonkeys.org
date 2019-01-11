@@ -1,6 +1,6 @@
 {
-    "projectName": "finitemonkeys",
-    "projectPath": "/Users/ccottingham/Projects/finitemonkeys.org-gatsby",
+    "projectName": "finitemonkeysorg",
+    "projectPath": "/Users/ccottingham/Projects/Sites/finitemonkeys.org",
     "defaultEditor": "atom",
     "frontendHandler": {
         "javascript": "/Users/ccottingham/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-javascript"
