@@ -6,7 +6,7 @@
             "Type": "AWS::S3::Bucket",
             "DeletionPolicy": "Retain",
             "Properties": {
-                "BucketName": "finitemonkeys-20190110231716-hostingbucket",
+                "BucketName": "dev.finitemonkeys.org",
                 "AccessControl": "PublicRead",
                 "WebsiteConfiguration": {
                     "IndexDocument": "index.html",
