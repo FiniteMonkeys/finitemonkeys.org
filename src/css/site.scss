@@ -1,0 +1,107 @@
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Special%20Elite");
+
+// variables
+
+$background_color: #FBECC2;
+$text_color: #221144;
+
+// mixins
+
+@mixin typewritten {
+  font-family: "Special Elite", "Courier", monospace;
+  color: $text_color;
+}
+
+// global styles
+
+a {
+  color: $text_color;
+  text-decoration: none;
+  border: none;
+  border-bottom: dotted thin;
+
+  &:focus,
+  &:hover {
+    color: $text_color;
+    text-decoration: none;
+    border: none;
+    border-bottom: solid thin;
+  }
+}
+
+// structured styles
+
+body { @extend .container-fluid !optional;
+  background-color: $background_color;
+  padding: 1rem 1rem;
+}
+
+// body > header
+body header {
+  text-align: center;
+  h1 {
+    @include typewritten;
+    font-size: 48px;
+  }
+  p {
+    @include typewritten;
+    font-style: italic;
+  }
+}
+
+// body > footer
+body footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  > p {
+    @include typewritten;
+    font-size: 12px;
+  }
+}
+  // nav { @extend .col-lg-3;
+  //   ul { @extend .list-group;
+  //     li { @extend .list-group-item; }
+  //   }
+  // }
+
+main { @extend .row !optional;
+  > section { @extend .col !optional; }
+}
+
+article { @extend .container-fluid !optional;
+  padding: 2em 1em 3em;
+  > header {
+    text-align: center;
+    > h1 {
+      @include typewritten;
+      font-size: 36px;
+    }
+  }
+}
+
+p, ol, ul, blockquote {
+  @include typewritten;
+  font-size: 18px;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+ul.toc {
+  @include typewritten;
+  text-align: left;
+  margin: 0 auto;
+  > li {
+    list-style-type: decimal;
+    font-size: 24px;
+    > ul > li {
+      list-style-type: lower-alpha;
+      font-size: 20px;
+    }
+  }
+}
