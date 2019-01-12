@@ -19,15 +19,11 @@ export default () => (
           </li>
           <li>
             hardware
-            <ul>
-              <li><ExternalLink href="https://github.com/FiniteMonkeys/UpsideDownLEDs" label="upsidedownleds" /></li>
-            </ul>
+            <PostList category="hardware" />
           </li>
           <li>
             iOS/macOS
-            <ul>
-              <li><ExternalLink href="https://github.com/FiniteMonkeys/Feedlot" label="Feedlot" /></li>
-            </ul>
+            <PostList category="ios_macos" />
           </li>
         </ul>
       </Article>
