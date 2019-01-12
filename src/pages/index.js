@@ -43,7 +43,12 @@ export default () => (
       </Article>
 
       <Article articleTitle="credits">
-        <p>Watch this space for details.</p>
+        <p>Made possible in part by:</p>
+        <ul>
+          <li><a href="https://www.gatsbyjs.org/">Gatsby</a></li>
+          <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+          <li><a href="https://aws-amplify.github.io/docs/">Amplify</a></li>
+        </ul>
       </Article>
 
     </Section>
