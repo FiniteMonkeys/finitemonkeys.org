@@ -2,6 +2,7 @@
 path: "/kerbal-maps"
 date: "2019-01-11"
 title: "Kerbal Maps"
+category: "kerbal space program"
 ---
 
 Status: active
