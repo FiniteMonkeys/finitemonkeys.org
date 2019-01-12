@@ -4,7 +4,7 @@ import React from "react"
 const Article = ({ articleTitle, centered, html, children }) => (
   <article>
     <header>
-      <h1>{articleTitle}</h1>
+      <h2>{articleTitle}</h2>
     </header>
     { html !== undefined &&
       <div className="row justify-content-center">

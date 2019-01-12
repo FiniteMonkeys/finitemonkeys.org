@@ -2,12 +2,13 @@
 path: "/kerbal-maps"
 date: "2019-01-11"
 title: "Kerbal Maps"
-category: "kerbal space program"
+project: "kerbal space program"
 ---
 
 Status: active
 
-Think [Google Maps](https://maps.google.com/), but for the planetary bodies in
+[Kerbal Maps](https://github.com/FiniteMonkeys/kerbal-maps) is...
+think [Google Maps](https://maps.google.com/), but for the planetary bodies in
 [Kerbal Space Program](https://kerbalspaceprogram.com/).
 
 This isn't a new idea. [kerbalmaps.com](http://www.kerbalmaps.com/) did it first,
