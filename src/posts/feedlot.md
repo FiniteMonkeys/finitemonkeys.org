@@ -7,4 +7,4 @@ category: "ios_macos"
 
 Status: active
 
-Feedlot is an RSS/Atom client.
+[Feedlot](https://github.com/FiniteMonkeys/Feedlot) is an RSS/Atom client.

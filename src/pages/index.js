@@ -25,6 +25,10 @@ export default () => (
             iOS/macOS
             <PostList category="ios_macos" />
           </li>
+          <li>
+            elixir
+            <PostList category="elixir" />
+          </li>
         </ul>
       </Article>
 
