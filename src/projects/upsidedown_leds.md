@@ -2,7 +2,7 @@
 path: "/upsidedown-leds"
 date: "2019-01-11"
 title: "UpsideDownLEDs"
-category: "hardware"
+project: "hardware"
 ---
 
 Status: active

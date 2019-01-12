@@ -2,7 +2,7 @@
 path: "/ksptot_on_macos"
 date: "2019-01-09"
 title: "KSP Trajectory Optimization Tool on macOS"
-category: "kerbal space program"
+project: "kerbal space program"
 ---
 
 1. Download Wine for macOS from

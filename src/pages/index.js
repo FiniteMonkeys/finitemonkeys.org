@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import Article from "../components/article"
 import ExternalLink from "../components/external_link"
 import Layout from "../components/layout"
-import PostList from "../components/post_list"
+import ProjectList from "../components/project_list"
 import Section from "../components/section"
 
 export default () => (
@@ -15,19 +15,19 @@ export default () => (
         <ul className="toc">
           <li>
             kerbal space program
-            <PostList category="kerbal space program" />
+            <ProjectList project="kerbal space program" />
           </li>
           <li>
             hardware
-            <PostList category="hardware" />
+            <ProjectList project="hardware" />
           </li>
           <li>
             iOS/macOS
-            <PostList category="ios_macos" />
+            <ProjectList project="ios_macos" />
           </li>
           <li>
             elixir
-            <PostList category="elixir" />
+            <ProjectList project="elixir" />
           </li>
         </ul>
       </Article>

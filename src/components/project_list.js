@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Link, StaticQuery, graphql } from "gatsby"
 
-const PostList = ({ category }) => (
+const ProjectList = ({ project }) => (
   <StaticQuery
     query={graphql`
       {
@@ -14,7 +14,7 @@ const PostList = ({ category }) => (
                 date(formatString: "MMMM DD, YYYY")
                 path
                 title
-                category
+                project
               }
             }
           }
@@ -25,7 +25,7 @@ const PostList = ({ category }) => (
       <ul>
         {
           data.allMarkdownRemark.edges
-            .filter(edge => edge.node.frontmatter.category == category)
+            .filter(edge => edge.node.frontmatter.project == project)
             .map(edge => <li><Link to={edge.node.frontmatter.path}>{edge.node.frontmatter.title}</Link></li>)
         }
       </ul>
@@ -33,8 +33,8 @@ const PostList = ({ category }) => (
   />
 )
 
-PostList.propTypes = {
-  category: PropTypes.string.isRequired
+ProjectList.propTypes = {
+  project: PropTypes.string.isRequired
 }
 
-export default PostList
+export default ProjectList

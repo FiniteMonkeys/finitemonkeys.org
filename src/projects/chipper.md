@@ -2,7 +2,7 @@
 path: "/chipper"
 date: "2019-01-12"
 title: "Chipper"
-category: "elixir"
+project: "elixir"
 ---
 
 Status: active

@@ -29,7 +29,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-files`,
-        path: `${__dirname}/src/posts`,
+        path: `${__dirname}/src/projects`,
       },
     },
     `gatsby-plugin-sass`,
