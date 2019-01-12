@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Article from "../components/article"
 import ExternalLink from "../components/external_link"
 import Layout from "../components/layout"
+import PostList from "../components/post_list"
 import Section from "../components/section"
 
 export default () => (
@@ -14,23 +15,15 @@ export default () => (
         <ul className="toc">
           <li>
             kerbal space program
-            <ul>
-              <li><Link to="jooce">jooce</Link></li>
-              <li><Link to="ksptot_on_macos">KSP Trajectory Optimization Tool on macOS</Link></li>
-              <li><Link to="kerbal-maps">Kerbal Maps</Link></li>
-            </ul>
+            <PostList category="kerbal space program" />
           </li>
           <li>
             hardware
-            <ul>
-              <li><ExternalLink href="https://github.com/FiniteMonkeys/UpsideDownLEDs" label="upsidedownleds" /></li>
-            </ul>
+            <PostList category="hardware" />
           </li>
           <li>
             iOS/macOS
-            <ul>
-              <li><ExternalLink href="https://github.com/FiniteMonkeys/Feedlot" label="Feedlot" /></li>
-            </ul>
+            <PostList category="ios_macos" />
           </li>
         </ul>
       </Article>

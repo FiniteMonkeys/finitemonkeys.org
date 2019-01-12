@@ -2,6 +2,7 @@
 path: "/jooce"
 date: "2019-01-11"
 title: "jooce"
+category: "kerbal space program"
 ---
 
 Status: _abandoned_
