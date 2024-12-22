@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Craig S. Cottingham <craig@cottingham.net>",
   "dependencies": {
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.3.1",
     "gatsby": "^2.0.91",
     "gatsby-image": "^2.0.26",
     "gatsby-plugin-manifest": "^2.0.13",
